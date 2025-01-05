@@ -1,16 +1,21 @@
-TUTORIAL SETTING TAILSCALE 2024
+TUTORIAL INSTALL & SETTING TAILSCALE 2024
 
 Creator Boychongzen aka Xroot
 
+A. INSTALL TAILSCALE 
 buka terminal ikutin cara dibawah
+Download file ipk & simpat di folder root
 
+   opkg update
+   opkg install --force-overwrite *.ipk
+
+
+B. SETTING TAILSCALE
+buka terminal ikutin cara dibawah
  1   tailscale login
-	 
-	 
+
  2   Modem & Router
         tailscale up --advertise-routes=192.168.7.0/24,192.168.8.0/24,192.168.0.0/24 --netfilter-mode=off 
-         
-       
 		
  3   local startup		
         sleep 60 && service /etc/init.d/tailscale restart
