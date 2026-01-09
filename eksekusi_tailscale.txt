@@ -23,4 +23,11 @@ buka terminal ikutin cara dibawah
 
 
 
+IP TAILSCALE 
+http://100.94.181.3/cgi-bin/luci/
+
+
+
+
 My FB : https://www.facebook.com/xroot.xroot.7
+
