@@ -21,7 +21,9 @@ buka terminal ikutin cara dibawah
         sleep 60 && service /etc/init.d/tailscale restart
 
 
+CARA SETTING & REMOTE TAILSCALE DI OPENWRT
 
+https://www.youtube.com/watch?v=APtanZAdz2o&t=57s
 
 
 
